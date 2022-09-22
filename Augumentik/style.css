@@ -1,0 +1,267 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #161516;
+	/* background-color: rgb(132, 152, 170); */
+	margin: 0px;
+	padding: 0px;
+	color: aliceblue;
+	font-family: "Poppins", sans-serif;
+}
+
+.main {
+	background-color: aquamarine;
+}
+
+.nav-bar {
+	margin: 1.5rem;
+	/* border: 2px solid wheat; */
+	display: flex;
+	justify-content: space-between;
+}
+.icon-div {
+	font-weight: 900;
+	font-size: 2rem;
+}
+.link-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* justify-content: ; */
+}
+.in-link-div {
+	border: 2px solid #f770ef;
+	padding: 0.26rem 0.7rem;
+	margin: 0rem 0rem 0rem 2rem;
+	background-color: rgba(247, 112, 239, 0.2);
+	border-radius: 0px 18px 0px 0px;
+}
+.hero-text-content {
+	/* border: 2px solid wheat; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 7rem;
+}
+.hero-text-content-1 {
+	color: #4c515f;
+	font-weight: 700;
+}
+.hero-text-content-2 {
+	color: #dfdedf;
+	font-size: 4rem;
+	font-weight: 800;
+	text-align: center;
+}
+.hero-text-content-2 .in {
+	margin-top: -1.2rem;
+}
+.hero-text-content-3 {
+	color: #dfdedf;
+	text-align: center;
+	margin-top: 1rem;
+}
+.hero-text-content-3 div {
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+}
+.hero-image-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 6rem;
+	height: 350px;
+}
+.hero-image {
+	animation: example 8s linear 2s infinite;
+	width: 350px;
+	height: 100%;
+	background-image: url("images/_24_black-diamond-png_black-diamond-gemstone-gemstone-education.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@keyframes example {
+	0% {
+		/* background-color: red; */
+		transform: rotate(20deg);
+	}
+	25% {
+		/* background-color: yellow; */
+		transform: rotate(60deg);
+	}
+	50% {
+		/* background-color: blue; */
+		transform: rotate(90deg);
+	}
+	75% {
+		/* background-color: green; */
+		transform: rotate(140deg);
+	}
+	100% {
+		/* background-color: red; */
+		transform: rotate(180deg);
+	}
+}
+.next-page {
+	height: 1500px;
+	display: inline-block;
+	width: 100%;
+	background-color: #161516;
+}
+.card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-above {
+	color: #dfdedf;
+	font-size: 3rem;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 4rem;
+}
+.card-below {
+	/* border: 2px solid red; */
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: row;
+	gap: 4;
+}
+.card {
+	/* border: 2px solid yellow; */
+	margin: 1rem;
+	width: 25rem;
+	height: 24rem;
+	margin-top: 4rem;
+	box-sizing: border-box;
+	/* padding: 3rem; */
+	background-color: #222326;
+	border-radius: 20px;
+	position: relative;
+}
+.card-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-image-in {
+	background-image: url("/images/PngItem_6484360.png");
+	height: 10rem;
+	width: 10rem;
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* border: 2px solid palevioletred; */
+	position: absolute;
+	top: -5rem;
+
+	/* margin-bottom: 4rem; */
+}
+.card-title {
+	/* margin-top: 15rem; */
+	color: #dfdedf;
+	font-size: 1.7rem;
+	font-weight: 800;
+	position: relative;
+	top: 6rem;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.card-desc {
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	position: relative;
+	top: 6rem;
+}
+
+.card-button {
+	padding: 0.5rem 2rem 0.5rem 2rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	top: 8rem;
+	color: #f770ef;
+}
+.left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left-image {
+	background-image: url("/images/PngItem_569183.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 24rem;
+	width: 34rem;
+	/* border: 2px solid blueviolet; */
+	margin-left: -4rem;
+}
+.main-1 {
+	display: flex;
+	flex-direction: row;
+}
+.right {
+	width: 50%;
+	padding: 8rem 4rem 8rem 22rem;
+}
+.right .main-1-title {
+	color: #dfdedf;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.right .main-1-desc {
+	color: #606570;
+	font-size: 1.1rem;
+	margin-top: 1.5rem;
+}
+.left {
+	width: 50%;
+	padding: 8rem 8rem 8rem 6rem;
+}
+.main-1-points li {
+	margin-top: 1.5rem;
+	margin-left: 2.1rem;
+	font-weight: 600;
+	font-size: 1rem;
+	list-style: none;
+}
+
+.main-1-points li::before {
+	content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: #f770ef; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 2em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.main-1-buttons {
+	/* margin-top: 5rem;
+     */
+	margin: 6rem;
+	border: 2px solid #f770ef;
+	padding: 0.26rem 0.7rem;
+	margin: 3rem 0rem 0rem 0rem;
+	background-color: rgba(247, 112, 239, 0.2);
+	width: fit-content;
+	border-radius: 0px 18px 0px 0px;
+}
+.main-2 {
+	display: flex;
+	flex-direction: row;
+}
+.main-2 .left {
+	width: 50%;
+	padding: 8rem 2rem 8rem 16rem;
+}
+
+.main-2 .right {
+	width: 50%;
+	padding: 8rem 13rem 8rem 8rem;
+}
+.main-2 .right .main-1-points {
+	margin-top: 1.7rem;
+}
